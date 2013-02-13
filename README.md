@@ -1,14 +1,14 @@
 # XQuartz Puppet Module for Boxen
 
-Requires the following boxen modules:
-
-* `boxen`
-
 ## Usage
 
 ```puppet
 include xquartz
 ```
+
+## Required Puppet Modules
+
+None.
 
 ## Developing
 

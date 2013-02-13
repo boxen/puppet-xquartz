@@ -1,3 +1,1 @@
-#!/bin/sh
-
-script/bootstrap && script/syntax && script/lint && script/specs
+cardboard-exec
