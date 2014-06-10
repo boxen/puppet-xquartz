@@ -3,9 +3,11 @@
 # Examples
 #
 #   include xquartz
-class xquartz {
+class xquartz (
+  $version = '2.7.5',
+) {
   package { 'XQuartz':
     provider => 'pkgdmg',
-    source   => 'http://xquartz.macosforge.org/downloads/SL/XQuartz-2.7.5.dmg',
+    source   => "http://xquartz.macosforge.org/downloads/SL/XQuartz-${version}.dmg",
   }
 }
