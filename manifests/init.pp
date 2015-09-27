@@ -8,6 +8,6 @@ class xquartz (
 ) {
   package { 'XQuartz':
     provider => 'pkgdmg',
-    source   => "http://xquartz.macosforge.org/downloads/SL/XQuartz-${version}.dmg",
+    source   => "http://xquartz-dl.macosforge.org/SL/XQuartz-${version}.dmg",
   }
 }
