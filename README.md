@@ -1,5 +1,7 @@
 # XQuartz Puppet Module for Boxen
 
+![Build Status](https://travis-ci.org/TORO-IO/puppet-xquartz.svg)](https://travis-ci.org/TORO-IO/puppet-xquartz)
+
 ## Usage
 
 ```puppet
