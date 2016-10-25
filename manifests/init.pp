@@ -4,10 +4,10 @@
 #
 #   include xquartz
 class xquartz (
-  $version = '2.7.7',
+  $version = '2.7.10',
 ) {
   package { 'XQuartz':
     provider => 'pkgdmg',
-    source   => "http://xquartz.macosforge.org/downloads/SL/XQuartz-${version}.dmg",
+    source   => "https://dl.bintray.com/xquartz/downloads/XQuartz-${version}.dmg",
   }
 }
