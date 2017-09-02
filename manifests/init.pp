@@ -4,7 +4,7 @@
 #
 #   include xquartz
 class xquartz (
-  $version = '2.7.10',
+  $version = '2.7.11',
 ) {
   package { 'XQuartz':
     provider => 'pkgdmg',
